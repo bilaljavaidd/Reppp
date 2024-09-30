@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0366d6;
+    text-align: center;
+}
+
+.github-profile {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contributions-calendar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recent-activity {
+    margin-top: 40px;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+}
+
+.activity-item {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #0366d6;
+    border-radius: 4px;
+}
+
+.activity-item:hover {
+    background-color: #f1f1f1;
+}
+
+iframe {
+    border: none;
+    margin-top: 10px;
+}
