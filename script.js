@@ -18,6 +18,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
                 const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
+                const eventType = event.type.replace(/([A-Z])/g, ' $1'); // Split camel case (e.g., "PushEvent" -> "Push Event")
+                const repoName = event.repo.name;
 
                 listItem.innerHTML = `<strong>${eventType}</strong> on <a href="https://github.com/${repoName}" target="_blank">${repoName}</a>`;
                 activityList.appendChild(listItem);
